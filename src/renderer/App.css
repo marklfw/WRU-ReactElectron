@@ -3,13 +3,13 @@
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
 body {
-  position: relative;
-  color: white;
+  width: 100vw;
   height: 100vh;
+  color: white;
   background: linear-gradient(
-    200.96deg,
-    rgb(1, 20, 20) -29.09%,
-    rgb(0, 15, 5) 51.77%,
+    90deg,
+    rgb(1, 16, 20) -29.09%,
+    rgb(1, 24, 39) 51.77%,
     rgb(0, 0, 0) 129.35%
   );
   font-family: sans-serif;
@@ -17,46 +17,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
-button {
-  background-color: rgb(33, 120, 126);
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: none;
-  appearance: none;
-  font-size: 1.3rem;
-  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
-    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
-  transition: all ease-in 0.1s;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-button:hover {
-  transform: scale(1.05);
-  opacity: 1;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  height: fit-content;
-  width: fit-content;
-  margin: 10px;
-}
-
-a:hover {
-  opacity: 1;
-  text-decoration: none;
-}
-
-.Hello {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}

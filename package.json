@@ -75,6 +75,12 @@
     }
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.9",
+    "@fullcalendar/daygrid": "^6.1.9",
+    "@fullcalendar/interaction": "^6.1.9",
+    "@fullcalendar/react": "^6.1.9",
+    "@fullcalendar/resource-timegrid": "^6.1.9",
+    "@fullcalendar/timegrid": "^6.1.9",
     "each-async": "^2.0.0",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
