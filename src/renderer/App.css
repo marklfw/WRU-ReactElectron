@@ -8,9 +8,9 @@ body {
   height: 100vh;
   background: linear-gradient(
     200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
+    rgb(1, 20, 20) -29.09%,
+    rgb(0, 15, 5) 51.77%,
+    rgb(0, 0, 0) 129.35%
   );
   font-family: sans-serif;
   overflow-y: hidden;
@@ -20,7 +20,7 @@ body {
 }
 
 button {
-  background-color: white;
+  background-color: rgb(33, 120, 126);
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
